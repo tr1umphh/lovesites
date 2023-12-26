@@ -323,7 +323,7 @@ h1.large {
     -ms-transform: translate(-45%, -50%);
     -o-transform: translate(-45%, -50%);
 }
-.circle-dashed i {
+/* .circle-dashed i {
     position: absolute;
     color: #ffffff;
     top: 50%;
@@ -333,7 +333,7 @@ h1.large {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-}
+} */
 .round-circle {
     width: 35px;
     height: 35px;
@@ -362,7 +362,7 @@ h1.large {
     -moz-border-radius: 0 100px 100px 0;
     -ms-border-radius: 0 100px 100px 0;
     -o-border-radius: 0 100px 100px 0;
-    content: "";
+    content: "<i class="fa-solid fa-heart"></i>";
     height: 35px;
     position: absolute;
     right: 0;
@@ -387,7 +387,7 @@ h1.large {
     padding: 12px 0;
     width: 180px;
     color: #333030;
-    font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: 'Inter', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-right: -4px;
 }
@@ -482,6 +482,7 @@ h1.large {
 .round-circle.green {
     background: #8de9be;
 }
+
 /* Love story section*/
 
 
